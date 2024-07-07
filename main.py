@@ -6,3 +6,13 @@ b=20
 result = a + b
 
 print(result)
+
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Prompting the user for input
+user_name = input("Enter your name: ")
+
+# Calling the function with user input
+greet(user_name)
